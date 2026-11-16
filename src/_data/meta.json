@@ -1,15 +1,15 @@
 {
   "/": {
-    "title": "Clínica Odontológica no Belvedere",
-    "description": "Atendimento odontológico completo no Belvedere, Belo Horizonte. Implantes, ortodontia, clareamento, odontopediatria e estética para cuidar do seu sorriso."
+    "title": "Clínica odontológica no Belvedere | Concept Belvedere",
+    "description": "Clínica odontológica no Belvedere, em Belo Horizonte. Conheça a equipe e converse com a gente sobre tratamentos e horários."
   },
   "/localizacao/": {
     "title": "Localização e ambiente da clínica",
     "description": "Consultório odontológico no bairro Belvedere em Belo Horizonte, com atendimento em um ambiente acolhedor e fácil acesso."
   },
   "/servicos/": {
-    "title": "Tratamentos e Serviços Odontológicos",
-    "description": "Conheça nossos tratamentos: restauração dentária, implante, prótese, ortodontia, clareamento, odontopediatria e estética facial e dental em Belo Horizonte."
+    "title": "Tratamentos odontológicos no Belvedere",
+    "description": "Conheça as opções de tratamento da Concept Belvedere e converse com a equipe sobre o que faz sentido para você."
   },
   "/servicos/restauracao/": {
     "title": "Restauração Dentária e Dor de Dente",
@@ -44,8 +44,8 @@
     "description": "Consulte a clínica sobre facetas, bruxismo, tratamento de canal, urgências odontológicas, extrações e cirurgias."
   },
   "/equipe/": {
-    "title": "Nossa Equipe de Dentistas",
-    "description": "Conheça a equipe da Concept Belvedere e a forma como o cuidado é pensado para atender diferentes necessidades e perfis de pacientes."
+    "title": "Conheça nossos dentistas | Concept Belvedere",
+    "description": "Conheça os dentistas da Concept Belvedere, no Belvedere, em Belo Horizonte, e saiba com quem conversar sobre seu tratamento."
   },
   "/equipe/dra-cristiana/": {
     "title": "Dra. Cristiana Guimarães · Odontopediatria",

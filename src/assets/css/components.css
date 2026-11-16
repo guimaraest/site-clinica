@@ -65,16 +65,15 @@
     flex-direction: column;
 }
 
-.card-hover {
+.card-hover:is(a, button) {
   transition: transform 0.2s ease-in-out,
               background-color 0.2s ease-in-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .card-hover:hover,
-  .card-hover:focus-visible {
+  .card-hover:is(a, button):hover,
+  .card-hover:is(a, button):focus-visible {
       transform: translateY(3px);
-      cursor: pointer;
   }
 }
 
@@ -263,5 +262,5 @@
 
 .text-link { display: inline-flex; width: fit-content; align-items: center; gap: var(--space-8); color: var(--primary-muted); font-size: var(--text-16); font-weight: 700; white-space: nowrap; }
 
-.img-card-grid-image img { transition: transform .45s ease; }
-.img-card-grid:hover .img-card-grid-image img { transform: scale(1.05); }
+.img-card-grid:is(a, button) .img-card-grid-image img { transition: transform .45s ease; }
+.img-card-grid:is(a, button):hover .img-card-grid-image img { transform: scale(1.05); }

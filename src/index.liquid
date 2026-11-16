@@ -11,8 +11,8 @@ stylesheet: /css/page/home.css
 			<div class="column">
 				<div class="hero-text hero-copy">
 					<span class="kicker">Dentista no Belvedere</span>
-					<h1>Seu sorriso merece o melhor cuidado</h1>
-					<p class="subheading">Atendimento odontológico completo, com tecnologia moderna e uma equipe pronta para cuidar de você em cada etapa do tratamento.</p>
+					<h1>Clínica experiente em localização central</h1>
+					<p class="subheading">Estamos no Belvedere, em Belo Horizonte. Conte para a nossa equipe o que você precisa e vamos conversar sobre as opções de cuidado.</p>
 				</div>
 				{% include "cta/whatsapp-primary.liquid" %}
 			</div>
@@ -25,7 +25,7 @@ stylesheet: /css/page/home.css
   <div class="section-container">
     <div class="section-content">
       <div class="column">
-        <div class="section-heading"><div><span class="kicker">Tratamentos</span><h2>Cuidado pensado para o seu momento</h2></div><a class="text-link" href="{{ '/servicos/' | url }}">Ver todos os serviços <i class="iconoir-arrow-right"></i></a></div>
+        <div class="section-heading"><div><span class="kicker">Tratamentos</span><h2>Como podemos ajudar você?</h2></div><a class="text-link" href="{{ '/servicos/' | url }}">Ver todos os tratamentos <i class="iconoir-arrow-right"></i></a></div>
         <div class="card-grid services-grid">
           <a href="{{ '/servicos/restauracao/' | url }}" class="center card card-hover img-card-grid">
             <div class="img-card-grid-image">{% image "src/assets/images/pexels-cottonbro-6502745.jpg", "Restauração dentária", "(max-width: 700px) 50vw, 25vw" %}</div>
@@ -69,7 +69,7 @@ stylesheet: /css/page/home.css
   <div class="section-container">
     <div class="section-content">
       <div class="column">
-        <div class="section-heading"><div><span class="kicker">Nossa equipe</span><h2>Gente que cuida de gente</h2></div><a class="text-link" href="{{ '/equipe/' | url }}">Conheça a equipe <i class="iconoir-arrow-right"></i></a></div>
+        <div class="section-heading"><div><span class="kicker">Nossa equipe</span><h2>Conheça quem vai cuidar de você</h2></div><a class="text-link" href="{{ '/equipe/' | url }}">Conheça os dentistas <i class="iconoir-arrow-right"></i></a></div>
         <div class="team-list team-grid">
           {% for profissional in equipe %}
           <article class="team-entry"><a href="{{ profissional.slug | prepend: '/equipe/' | append: '/' | url }}" class="team-card card card-hover img-card-grid"><div class="img-card-grid-image">{% image profissional.image, profissional.alt, "(max-width: 700px) 50vw, 25vw" %}</div><div class="team-card-content"><div class="team-card-name">{{ profissional.name }}</div><span class="team-card-role">{{ profissional.specialization }}</span></div></a><div class="team-card-meta">{% if features.showTeamExperience %}<span>{{ profissional.experience }}</span>{% endif %}<a href="{{ profissional.slug | prepend: '/equipe/' | append: '/' | url }}" class="text-link">Ver perfil <i class="iconoir-arrow-right"></i></a></div></article>
@@ -102,7 +102,7 @@ stylesheet: /css/page/home.css
 	<div class="section-container">
 		<div class="section-content">
 			<div class="column">
-				<span class="kicker">Seu próximo passo</span><h2>Agende sua consulta</h2><p class="subheading">Conte o que você precisa. Nós ajudamos a encontrar o melhor caminho.</p>
+				<span class="kicker">Vamos conversar?</span><h2>Agende sua consulta</h2><p class="subheading">Conte para a gente o que está acontecendo. Nossa equipe ajuda você a entender os próximos passos.</p>
 				{% include "cta/whatsapp-primary.liquid" %}
 			</div>
 		</div>
